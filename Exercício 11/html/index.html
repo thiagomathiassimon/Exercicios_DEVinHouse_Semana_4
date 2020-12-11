@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="../script/scrit.js" defer></script>
+    <title>Exercício 11</title>
+</head>
+
+<body>
+    <h1>Cálculo de área de um Retângulo</h1>
+    <br>
+    <hr>
+    <label for="altura">Altura:</label>
+    <br>
+    <input type="number" name="altura" id="altura" placeholder="Informe a altura">
+    <br>
+    <label for="largura">Largura:</label>
+    <br>
+    <input type="number" name="largura" id="largura" placeholder="Informe a largura">
+    <hr>
+    <br>
+    <label for="resultado">Resultado:</label>
+    <input id="resultado" readonly>
+    <button id='executar' onclick="tamanho([{
+        altura: document.getElementById('altura').value,
+        largura: document.getElementById('largura').value
+    }])">Executar</button>
+</body>
+
+</html>
