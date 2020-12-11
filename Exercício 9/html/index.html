@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="../script/scrit.js"></script>
+    <title>Exercício 9</title>
+</head>
+
+<body>
+    <h1>Apresentação de usuário</h1>
+    <br>
+    <hr>
+    <label for="nome">Nome:</label>
+    <br>
+    <input type="text" name="nome" id="nome" placeholder="Informe o nome">
+    <br>
+    <label for="idade">Idade:</label>
+    <br>
+    <input type="text" name="idade" id="idade" placeholder="Informe a idade">
+    <hr>
+    <br>
+    <label for="resultado">Resultado:</label>
+    <input id="resultado" readonly>
+    <button onclick="nomeEIdade(document.getElementById('nome').value, document.getElementById('idade').value)">Executar</button>
+</body>
+
+</html>
