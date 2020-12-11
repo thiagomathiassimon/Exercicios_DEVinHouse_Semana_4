@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="../script/scrit.js" defer></script>
+    <title>Exercício 10</title>
+</head>
+
+<body>
+    <h1>Soma com resultado Par</h1>
+    <br>
+    <hr>
+    <label for="numero1">Número1:</label>
+    <br>
+    <input type="number" name="numero1" id="numero1" placeholder="Informe o numero1">
+    <br>
+    <label for="numero2">Número2:</label>
+    <br>
+    <input type="number" name="numero2" id="numero2" placeholder="Informe a numero2">
+    <hr>
+    <br>
+    <label for="resultado">Resultado:</label>
+    <input id="resultado" readonly>
+    <button onclick="parOuImpar(document.getElementById('numero1').value, document.getElementById('numero2').value)">Executar</button>
+</body>
+
+</html>
